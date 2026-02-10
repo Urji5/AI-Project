@@ -1,5 +1,6 @@
 **Traveling Ethiopia Search Problem**
-Artificial Intelligence: Principles and Techniques – Course Project
+
+**Artificial Intelligence: Principles and Techniques – Course Project**
 
 **📍 Addis Ababa University**
 🏫 Institute of Technology
@@ -34,7 +35,9 @@ Uninformed Search for Robot Navigation (ROS)
 
 
 **🧩 Question-wise Implementation**
-Question 1: Uninformed Search (Figure 1)
+
+**Question 1: Uninformed Search (Figure 1)**
+
 **1.1 State Space Representation**
 
 The state space graph is converted into a manageable data structure using:
@@ -58,8 +61,9 @@ Explored states
 
 📄 File: search/bfs_dfs.py
 
-**Question 2: Uniform Cost Search (Figure 2)
-2.1 Graph Conversion**
+**Question 2: Uniform Cost Search (Figure 2)**
+
+**2.1 Graph Conversion**
 
 Weighted adjacency list with backward costs
 
@@ -108,8 +112,9 @@ Chooses best achievable destination under optimal play
 
 📄 File: search/minimax.py
 
-**Question 5: Interactive Intelligent System (Figure 5)
-5.1 Robot Design**
+**Question 5: Interactive Intelligent System (Figure 5)**
+
+**5.1 Robot Design**
 
 Three-wheel robot modeled in Gazebo
 
