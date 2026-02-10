@@ -3,6 +3,7 @@
 **Artificial Intelligence: Principles and Techniques – Course Project**
 
 **📍 Addis Ababa University**
+
 🏫 Institute of Technology
 📘 School of Information Science and Engineering
 🎓 Artificial Intelligence Graduate Program
