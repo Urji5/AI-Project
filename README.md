@@ -30,31 +30,7 @@ Uninformed Search for Robot Navigation (ROS)
 
 ## 📂 Project Structure
 
-
-.
-├── data/
-│   ├── figure1_graph.py        # State space graph for BFS and DFS (Figure 1)
-│   ├── figure2_graph.py        # Weighted graph for Uniform Cost Search (Figure 2)
-│   ├── figure3_graph.py        # Graph with heuristics for A* Search (Figure 3)
-│   └── figure4_game_tree.py    # Adversarial game tree for MiniMax (Figure 4)
-│
-├── search/
-│   ├── bfs_dfs.py              # Breadth-First Search and Depth-First Search
-│   ├── uniform_cost.py         # Uniform Cost Search implementation
-│   ├── multi_goal_ucs.py       # Customized UCS for visiting multiple goal states
-│   ├── astar.py                # A* Search algorithm
-│   └── minimax.py              # MiniMax algorithm for adversarial search
-│
-├── robotics/
-│   ├── robot_description/
-│   │   └── three_wheel_robot.urdf   # Robot model definition (Gazebo / ROS)
-│   ├── worlds/
-│   │   └── ethiopia_map.world       # Environment with states from Figure 5
-│   └── ros_search_node.py           # ROS node for robot path planning
-│
-├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies
-
+<img width="366" height="389" alt="image" src="https://github.com/user-attachments/assets/10dbfb6e-64c3-4d6c-a543-7af88a7afa86" />
 
 
 **🧩 Question-wise Implementation
