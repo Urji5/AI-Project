@@ -15,33 +15,33 @@ This repository contains the implementation and analysis of classical and inform
 
 **The project covers:**
 
-State space representation
+- State space representation
 
-Uninformed search algorithms
+- Uninformed search algorithms
 
-Informed search algorithms
+- Informed search algorithms
 
 Adversarial search
 
-Interactive intelligent systems using ROS and Gazebo
+- Interactive intelligent systems using ROS and Gazebo
 
 All solutions are designed to be **modular, readable, and reproducible**, following the project guidelines.
 
 **🧠 Algorithms Covered**
 
-Breadth-First Search (BFS)
+- Breadth-First Search (BFS)
 
-Depth-First Search (DFS)
+- Depth-First Search (DFS)
 
-Uniform Cost Search (UCS)
+- Uniform Cost Search (UCS)
 
-Customized Uniform Cost Search
+- Customized Uniform Cost Search
 
 A* Search
 
-MiniMax Algorithm
+- MiniMax Algorithm
 
-Uninformed Search for Robot Navigation (ROS)
+- Uninformed Search for Robot Navigation (ROS)
 
 ## 📂 Project Structure
 
@@ -58,28 +58,28 @@ The state space graph is converted into a manageable data structure using:
 
 Adjacency list
 
-Queue (for BFS)
+- Queue (for BFS)
 
-Stack (for DFS)
+- Stack (for DFS)
 
 **1.2 Search Class**
 A reusable class is implemented that:
 
 Accepts:
 
-Graph
+- Graph
 
-Initial state
+- Initial state
 
-Goal state
+- Goal state
 
-Search strategy (BFS or DFS)
+- Search strategy (BFS or DFS)
 
 Returns:
 
-Solution path
+- Solution path
 
-Explored states
+- Explored states
 
 📄 File: search/bfs_dfs.py
 
@@ -91,9 +91,9 @@ Weighted adjacency list with backward costs
 
 **2.2 Path from Addis Ababa → Lalibela**
 
-Implemented using Uniform Cost Search
+- Implemented using Uniform Cost Search
 
-Guarantees optimal path based on cumulative cost
+- Guarantees optimal path based on cumulative cost
 
 **2.3 Multi-Goal UCS (Customized)**
 
@@ -103,43 +103,43 @@ Axum, Gondar, Lalibela, Babile, Jimma, Bale, Sof Oumer, Arba Minch
 
 **The algorithm:**
 
-Visits all goals
+- Visits all goals
 
-Preserves local optimality
+- Preserves local optimality
 
-Avoids unnecessary revisits
+- Avoids unnecessary revisits
 
 **📄 Files:**
 
-search/uniform_cost.py
+- search/uniform_cost.py
 
-search/multi_goal_ucs.py
+- search/multi_goal_ucs.py
 
 **Question 3: A Search (Figure 3)***
 
 Uses:
 
-Backward cost g(n)
+- Backward cost g(n)
 
-Heuristic cost h(n)
+- Heuristic cost h(n)
 
 Finds optimal path from:
 
-Addis Ababa → Moyale
+- Addis Ababa → Moyale
 
 📄 File: search/astar.py
 
 **Question 4: Adversarial Search (Figure 4)**
 
-An adversary is introduced
+- An adversary is introduced
 
-Goal: maximize Coffee Quality
+- Goal: maximize Coffee Quality
 
 MiniMax algorithm:
 
-Explores possible outcomes
+- Explores possible outcomes
 
-Chooses best achievable destination under optimal play
+- Chooses best achievable destination under optimal play
 
 📄 File: search/minimax.py
 
@@ -151,63 +151,63 @@ Three-wheel robot modeled in Gazebo
 
 Sensors:
 
-Proximity sensor
+- Proximity sensor
 
-Gyroscope
+- Gyroscope
 
-RGB Camera
+- RGB Camera
 
 **5.2 Environment Design**
 
-.world file created using Cartesian coordinates
+- .world file created using Cartesian coordinates
 
-Each state corresponds to a node in Figure 5
+- Each state corresponds to a node in Figure 5
 
 **5.3 ROS-Based Navigation**
 
-Uses an uninformed search strategy
+- Uses an uninformed search strategy
 
-Generates path from any initial state to goal
+- Generates path from any initial state to goal
 
-Robot follows the generated path in simulation
+- Robot follows the generated path in simulation
 
 📄 Files:
 
-robotics/three_wheel_robot.urdf
+- robotics/three_wheel_robot.urdf
 
-robotics/ethiopia_map.world
+- robotics/ethiopia_map.world
 
-robotics/ros_search_node.py
+- robotics/ros_search_node.py
 
 **⚙️ How to Run**
 
 Install Dependencies
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 **Run Search Algorithms**
 
-python search/bfs_dfs.py
+- python search/bfs_dfs.py
 
-python search/uniform_cost.py
+- python search/uniform_cost.py
 
-python search/astar.py
+- python search/astar.py
 
 **Run ROS Simulation**
 
-roslaunch robotics ethiopia_navigation.launch
+- roslaunch robotics ethiopia_navigation.launch
 
 **🎯 Learning Outcomes**
 
-Practical understanding of AI search strategies
+- Practical understanding of AI search strategies
 
-State space modeling and abstraction
+- State space modeling and abstraction
 
-Optimal vs non-optimal search
+- Optimal vs non-optimal search
 
-Adversarial reasoning
+- Adversarial reasoning
 
-Integration of AI algorithms with robotics simulation
+- Integration of AI algorithms with robotics simulation
 
 **👤 Author**
 
