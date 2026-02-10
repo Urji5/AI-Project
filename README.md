@@ -1,5 +1,5 @@
 **Traveling Ethiopia Search Problem**
-**Artificial Intelligence: Principles and Techniques – Course Project**
+Artificial Intelligence: Principles and Techniques – Course Project
 
 **📍 Addis Ababa University**
 🏫 Institute of Technology
@@ -34,7 +34,7 @@ Uninformed Search for Robot Navigation (ROS)
 
 
 **🧩 Question-wise Implementation**
-**Question 1: Uninformed Search (Figure 1)**
+Question 1: Uninformed Search (Figure 1)
 **1.1 State Space Representation**
 
 The state space graph is converted into a manageable data structure using:
