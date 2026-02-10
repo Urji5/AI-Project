@@ -33,8 +33,8 @@ Uninformed Search for Robot Navigation (ROS)
 <img width="366" height="389" alt="image" src="https://github.com/user-attachments/assets/10dbfb6e-64c3-4d6c-a543-7af88a7afa86" />
 
 
-**🧩 Question-wise Implementation
-Question 1: Uninformed Search (Figure 1)**
+**🧩 Question-wise Implementation**
+**Question 1: Uninformed Search (Figure 1)**
 **1.1 State Space Representation**
 
 The state space graph is converted into a manageable data structure using:
