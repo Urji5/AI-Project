@@ -29,6 +29,9 @@ MiniMax Algorithm
 Uninformed Search for Robot Navigation (ROS)
 
 **📂 Project Structure**
+
+
+
 .
 ├── data/
 │   ├── figure1_graph.py        # State space graph for BFS and DFS (Figure 1)
@@ -52,6 +55,7 @@ Uninformed Search for Robot Navigation (ROS)
 │
 ├── README.md                   # Project documentation
 └── requirements.txt            # Python dependencies
+
 
 
 
