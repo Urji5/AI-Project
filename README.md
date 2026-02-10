@@ -31,10 +31,10 @@ Uninformed Search for Robot Navigation (ROS)
 **📂 Project Structure**
 .
 ├── data/
-│   ├── figure1_graph.py        # State space graph (Figure 1)                                                                                                              .
-│   ├── figure2_graph.py        # Weighted graph (Figure 2)                                                                                                                 .
-│   ├── figure3_graph.py        # Graph with heuristics (Figure 3)                                                                                                          .
-│   └── figure4_game_tree.py    # Adversarial game tree (Figure 4)                                                                                                          .
+│   ├── figure1_graph.py        # State space graph (Figure 1)
+│   ├── figure2_graph.py        # Weighted graph (Figure 2)
+│   ├── figure3_graph.py        # Graph with heuristics (Figure 3)
+│   └── figure4_game_tree.py    # Adversarial game tree (Figure 4)
 │
 ├── search/
 │   ├── bfs_dfs.py              # BFS and DFS implementations
@@ -52,6 +52,7 @@ Uninformed Search for Robot Navigation (ROS)
 │
 ├── README.md
 └── requirements.txt
+
 
 **🧩 Question-wise Implementation
 Question 1: Uninformed Search (Figure 1)**
