@@ -28,8 +28,7 @@ A* Search
 MiniMax Algorithm
 Uninformed Search for Robot Navigation (ROS)
 
-**📂 Project Structure**
-
+## 📂 Project Structure
 
 
 .
