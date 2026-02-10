@@ -29,7 +29,7 @@ MiniMax Algorithm
 Uninformed Search for Robot Navigation (ROS)
 
 **📂 Project Structure**
-.
+
 ├── data/
 │   ├── figure1_graph.py        # State space graph (Figure 1)
 │   ├── figure2_graph.py        # Weighted graph (Figure 2)
