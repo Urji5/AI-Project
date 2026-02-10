@@ -58,7 +58,6 @@ Uninformed Search for Robot Navigation (ROS)
 
 
 
-
 **🧩 Question-wise Implementation
 Question 1: Uninformed Search (Figure 1)**
 **1.1 State Space Representation**
